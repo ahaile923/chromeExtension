@@ -1,0 +1,28 @@
+#search-results {
+  margin: 10px 0;
+  padding: 5px;
+  background-color: rgb(250, 249, 249);
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgb(140, 140, 140);
+}
+
+.shown {
+  display: grid;
+  grid-template-rows: repeat(1fr, 5);
+  grid-template-columns: 1fr 1fr; 
+}
+
+.hide {
+  display: none;
+}
+
+.thumbnail {
+  height: 50px;
+  width: 50px;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
+}
+
+.podcast-entry {
+    width: 600px;
+}

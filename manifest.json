@@ -4,20 +4,16 @@
     "version": "1.0",
     "description": "A chrome extension that recommends podcast episodes based on the wiki page you are on",
     "icons": {
-         
+          "16": "/images/wikipodcasts-16.png",
+          "48": "/images/wikipodcasts-48.png",
+          "128": "/images/wikipodcasts-128.png"  
            },
-  
-
   "content_scripts": [
     {
     "matches": ["https://*.wikipedia.org/*"],
+    "css": ["styles.css"],
     "js": ["main.js"]
     }
-
  ]
 
 }
-
-
-
-
