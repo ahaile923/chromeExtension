@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Podcast-Wiki ext",
+    "version": "1.0",
+    "description": "A chrome extension that recommends podcast episodes based on the wiki page you are on",
+    "icons": {
+         
+           },
+  
+
+  "content_scripts": [
+    {
+    "matches": ["https://*.wikipedia.org/*"],
+    "js": ["main.js"]
+    }
+
+ ]
+
+}
+
+
+
+
